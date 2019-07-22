@@ -11,8 +11,8 @@ import hashlib
 import warnings
 import numpy as np
 import h5py
-from tf.keras import backend as K
-from tf.keras.engine.saving import load_attributes_from_hdf5_group
+from tensorflow.keras import backend as K
+from tensorflow.keras.engine.saving import load_attributes_from_hdf5_group
 
 _model_sha1 = {name: (error, checksum, repo_release_tag) for name, error, checksum, repo_release_tag in [
     ('alexnet', '2126', '56fb1c54f3fd3b95ac6b25b441372770e7f9e0c9', 'v0.0.121'),

@@ -6,8 +6,8 @@
 __all__ = ['squeezenext', 'sqnxt23_w1', 'sqnxt23_w3d2', 'sqnxt23_w2', 'sqnxt23v5_w1', 'sqnxt23v5_w3d2', 'sqnxt23v5_w2']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import maxpool2d, conv_block, conv1x1_block, conv7x7_block, is_channels_first, flatten
 
 

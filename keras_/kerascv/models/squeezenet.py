@@ -7,8 +7,8 @@
 __all__ = ['squeezenet', 'squeezenet_v1_0', 'squeezenet_v1_1', 'squeezeresnet_v1_0', 'squeezeresnet_v1_1']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import maxpool2d, conv2d, is_channels_first, get_channel_axis, flatten
 
 

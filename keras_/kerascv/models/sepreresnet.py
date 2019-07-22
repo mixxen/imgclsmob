@@ -9,8 +9,8 @@ __all__ = ['sepreresnet', 'sepreresnet10', 'sepreresnet12', 'sepreresnet14', 'se
            'sepreresnet200b']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import conv1x1, se_block, is_channels_first, flatten
 from .preresnet import preres_block, preres_bottleneck_block, preres_init_block, preres_activation
 

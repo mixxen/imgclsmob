@@ -10,8 +10,8 @@ __all__ = ['preresnet', 'preresnet10', 'preresnet12', 'preresnet14', 'preresnetb
            'preres_init_block', 'preres_activation']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import pre_conv1x1_block, pre_conv3x3_block, conv2d, conv1x1, batchnorm, is_channels_first, flatten
 
 

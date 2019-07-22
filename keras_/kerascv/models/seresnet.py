@@ -8,8 +8,8 @@ __all__ = ['seresnet', 'seresnet10', 'seresnet12', 'seresnet14', 'seresnet16', '
            'seresnet152', 'seresnet152b', 'seresnet200', 'seresnet200b']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import conv1x1_block, se_block, is_channels_first, flatten
 from .resnet import res_block, res_bottleneck_block, res_init_block
 

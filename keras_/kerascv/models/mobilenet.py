@@ -10,8 +10,8 @@ __all__ = ['mobilenet', 'mobilenet_w1', 'mobilenet_w3d4', 'mobilenet_wd2', 'mobi
            'fdmobilenet_w3d4', 'fdmobilenet_wd2', 'fdmobilenet_wd4']
 
 import os
-from tf.keras import layers as nn
-from tf.keras.models import Model
+from tensorflow.keras import layers as nn
+from tensorflow.keras.models import Model
 from .common import conv1x1_block, conv3x3_block, dwconv3x3_block, is_channels_first, flatten
 
 

@@ -10,9 +10,9 @@ __all__ = ['is_channels_first', 'get_channel_axis', 'update_keras_shape', 'flatt
 import math
 import numpy as np
 from inspect import isfunction
-from tf.keras.layers import BatchNormalization
-from tf.keras import backend as K
-from tf.keras import layers as nn
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras import backend as K
+from tensorflow.keras import layers as nn
 
 
 def swish(x,
@@ -1304,7 +1304,7 @@ class GluonBatchNormalization(BatchNormalization):
     def call(self, inputs, training=None):
         if K.backend() == "mxnet":
 
-            from tf.keras.backend.mxnet_backend import keras_mxnet_symbol, KerasSymbol
+            from tensorflow.keras.backend.mxnet_backend import keras_mxnet_symbol, KerasSymbol
             import mxnet as mx
 
             @keras_mxnet_symbol
