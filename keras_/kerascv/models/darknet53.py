@@ -6,8 +6,8 @@
 __all__ = ['darknet53_model', 'darknet53']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1_block, conv3x3_block, is_channels_first, flatten
 
 

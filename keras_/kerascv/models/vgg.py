@@ -8,8 +8,8 @@ __all__ = ['vgg', 'vgg11', 'vgg13', 'vgg16', 'vgg19', 'bn_vgg11', 'bn_vgg13', 'b
            'bn_vgg13b', 'bn_vgg16b', 'bn_vgg19b']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv2d, batchnorm, is_channels_first, flatten
 
 

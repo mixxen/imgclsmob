@@ -6,8 +6,8 @@
 __all__ = ['seresnext', 'seresnext50_32x4d', 'seresnext101_32x4d', 'seresnext101_64x4d']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1_block, se_block, is_channels_first, flatten
 from .resnet import res_init_block
 from .resnext import resnext_bottleneck

@@ -6,8 +6,8 @@
 __all__ = ['mnasnet_model', 'mnasnet']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import is_channels_first, flatten, conv1x1_block, conv3x3_block, dwconv3x3_block, dwconv5x5_block
 
 

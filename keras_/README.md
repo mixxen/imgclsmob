@@ -50,7 +50,7 @@ also preferable to set the value of the `image_data_format` field to `channels_f
 
 Example of using a pretrained ResNet-18 model (for `channels_first` data format):
 ```
-from kerascv.model_provider import get_model as kecv_get_model
+from tf.kerascv.model_provider import get_model as kecv_get_model
 import numpy as np
 
 net = kecv_get_model("resnet18", pretrained=True)

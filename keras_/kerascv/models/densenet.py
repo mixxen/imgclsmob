@@ -6,8 +6,8 @@
 __all__ = ['densenet', 'densenet121', 'densenet161', 'densenet169', 'densenet201']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import pre_conv1x1_block, pre_conv3x3_block, is_channels_first, get_channel_axis, flatten
 from .preresnet import preres_init_block, preres_activation
 

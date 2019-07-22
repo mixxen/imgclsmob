@@ -7,8 +7,8 @@
 __all__ = ['alexnet_model', 'alexnet']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv2d, is_channels_first, flatten
 
 

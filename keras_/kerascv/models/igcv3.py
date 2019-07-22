@@ -7,8 +7,8 @@
 __all__ = ['igcv3', 'igcv3_w1', 'igcv3_w3d4', 'igcv3_wd2', 'igcv3_wd4']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1_block, conv3x3_block, dwconv3x3_block, channel_shuffle_lambda, is_channels_first, flatten
 
 

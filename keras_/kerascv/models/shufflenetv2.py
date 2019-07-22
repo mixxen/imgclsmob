@@ -7,8 +7,8 @@
 __all__ = ['shufflenetv2', 'shufflenetv2_wd2', 'shufflenetv2_w1', 'shufflenetv2_w3d2', 'shufflenetv2_w2']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1, depthwise_conv3x3, conv1x1_block, conv3x3_block, maxpool2d, channel_shuffle_lambda,\
     se_block, batchnorm, is_channels_first, get_channel_axis, flatten
 

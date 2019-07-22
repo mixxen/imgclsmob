@@ -9,8 +9,8 @@ __all__ = ['resnet', 'resnet10', 'resnet12', 'resnet14', 'resnetbc14b', 'resnet1
            'res_bottleneck_block', 'res_unit', 'res_init_block']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1_block, conv3x3_block, conv7x7_block, maxpool2d, is_channels_first, flatten
 
 

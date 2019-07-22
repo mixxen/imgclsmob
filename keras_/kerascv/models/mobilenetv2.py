@@ -6,8 +6,8 @@
 __all__ = ['mobilenetv2', 'mobilenetv2_w1', 'mobilenetv2_w3d4', 'mobilenetv2_wd2', 'mobilenetv2_wd4']
 
 import os
-from keras import layers as nn
-from keras.models import Model
+from tf.keras import layers as nn
+from tf.keras.models import Model
 from .common import conv1x1, conv1x1_block, conv3x3_block, dwconv3x3_block, is_channels_first, flatten
 
 
